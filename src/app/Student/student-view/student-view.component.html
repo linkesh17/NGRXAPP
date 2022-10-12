@@ -1,0 +1,4 @@
+<p>student-view works!</p>
+<div *ngFor="let student of student$ | async;let i=index">
+    <span>{{ i+1}} - {{ student.name}}</span><button style="text-decoration:underline;margin-left:10px" (click)="DeleteStudent(student.id)"> Delete</button>
+</div>

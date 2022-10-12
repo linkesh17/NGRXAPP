@@ -1,0 +1,6 @@
+<p>customer-view works!</p>
+
+
+<div *ngFor="let customer of customer$ | async;let i=index">
+    <span>{{ i+1}} - {{ customer.name}}</span>
+</div>

@@ -107,5 +107,11 @@
       }
     }
   },
-  "defaultProject": "NgrxApp"
+  "defaultProject": "NgrxApp",
+  "cli": {
+    "schematicCollections": [
+      "@ngrx/schematics"
+    ]
+    ,"defaultCollection": "@ngrx/schematics"
+  }
 }
