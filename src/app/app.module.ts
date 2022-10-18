@@ -10,10 +10,12 @@ import { environment } from '../environments/environment';
 import { CustomerModule } from './customer/customer.module';
 import { StudentModule } from './Student/student.module';
 import { EffectsModule } from '@ngrx/effects';
+import { TestingComponent } from './testing/testing.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestingComponent
   ],
   imports: [
     BrowserModule,
